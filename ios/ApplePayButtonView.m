@@ -8,8 +8,8 @@
 
 #import "ApplePayButtonView.h"
 
-NSString * const DEFAULT_BUTTON_TYPE = @"plain";
-NSString * const DEFAULT_BUTTON_STYLE = @"black";
+//NSString * const DEFAULT_BUTTON_TYPE = @"plain";
+//NSString * const DEFAULT_BUTTON_STYLE = @"black";
 
 @implementation ApplePayButtonView
 
@@ -23,7 +23,7 @@ NSString * const DEFAULT_BUTTON_STYLE = @"black";
   
   CGFloat valueAsFloat = 4;
   CGFloat *pointerToFloat = &valueAsFloat;
-  [self setButtonType:DEFAULT_BUTTON_TYPE andStyle:DEFAULT_BUTTON_STYLE andRadius:(CGFloat *)pointerToFloat];
+  //[self setButtonType:DEFAULT_BUTTON_TYPE andStyle:DEFAULT_BUTTON_STYLE andRadius:(CGFloat *)pointerToFloat];
   
   return self;
 }
